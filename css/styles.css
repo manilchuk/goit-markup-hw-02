@@ -1,151 +1,192 @@
 body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #434455;
-    background-color: #FCFCFC;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+  background-color: #fcfcfc;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  padding-top: 120px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* header */
 .header {
-    width: 1440px;
-    height: 72px;
-    display: flex;
-    align-items: center;
+  width: 1440px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header-nav-all {
+  display: flex;
 }
 
 .logo {
-    width: 115px;
-    height: 24px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-left: 156px;
+  width: 115px;
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-left: 156px;
 }
 
 .logo-part1 {
-    color: #4d5ae5;
+  color: #4d5ae5;
 }
 
 .logo-part2 {
-    color: #2e2f42;
+  color: #2e2f42;
 }
 
 .header-nav {
-    width: 261px;
-    height: 24px;
-    display: flex;
+  width: 261px;
+  height: 24px;
+  display: flex;
 }
 
 .header-nav a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .header-nav a:hover {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #404bbf;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #404bbf;
 }
 
 .header-nav a:active {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #404bbf;
-    text-decoration: underline;
-    text-decoration-color: #404bbf;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+  text-decoration: underline;
+  text-decoration-color: #404bbf;
 }
 
 .address {
-    line-height: 150%;
+  line-height: 150%;
+}
+
+.address ul {
+  display: flex;
 }
 
 .address a {
-    color: #434455;
-    font-style: normal;
+  color: #434455;
+  font-style: normal;
 }
 
 .address a:hover {
-   font-family: "Roboto", sans-serif;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 150%;
-   letter-spacing: 0.02em;
-   color: #404bbf; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #404bbf;
 }
 
 /* section hero-image */
 .hero-image {
-    width: 1440px;
-    height: 600px;
-    background: #2e2f42;
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
+  width: 1440px;
+  height: 600px;
+  background: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .hero-image h1 {
-   font-family: "Roboto", sans-serif;
-   font-weight: 700;
-   font-size: 56px;
-   line-height: 107%;
-   letter-spacing: 0.02em;
-   text-align: center;
-   color: #fff; 
-   padding-top: 188px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  padding-top: 188px;
 }
 
 .hero-image-button {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.04em;
-    color: #fff;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    white-space: nowrap; 
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .hero-image-button:hover {
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-   background: #404bbf; 
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
 }
 
-/*section-1*/
+/* section-1 */
 .section-1 {
-    width: 1128px;
-    height: 104px;
-    margin-top: 120px;
+  width: 1128px;
+  height: 104px;
+  margin-top: 120px;
+  margin: 0 auto;
 }
 
 .section-1 h2 {
@@ -154,29 +195,131 @@ ul {
 
 .section-1 ul {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .section-1 ul li {
-    flex: 1;                
-    box-sizing: border-box;
-    width: 264px;
-    height: 104px;
+  width: 264px;
+  height: 104px;
 }
 
 .section-1 h3 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .section-1 p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* section-2 */
+.section-2 {
+  width: 1440px;
+  height: 732px;
+  background: #f4f4fd;
+  margin: 0 auto;
+}
+
+.section-2-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-2-card {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  text-align: center;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  padding-top: 32px;
+}
+
+/* section-3 */
+.section-3 {
+  width: 1128px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.project-card {
+  width: 360px;
+  height: 420px;
+  background: #fff;
+}
+
+.project-card div {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
+}
+
+/* footer */
+.footer {
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.footer-conteiner {
+  width: 264px;
+  height: 112px;
+  margin-left: 156px;
+}
+
+.footer-logo {
+  width: 115px;
+  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-left: 0;
+}
+
+.footer-logo-part2 {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
