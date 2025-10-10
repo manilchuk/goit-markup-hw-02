@@ -68,7 +68,7 @@ p {
 .header-nav {
 }
 
-.header-nav-link {
+.header-nav-li {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -76,7 +76,8 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-nav-link:hover {
+
+.header-nav-li:hover {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -85,7 +86,7 @@ p {
   color: #404bbf;
 }
 
-.header-nav-link:active {
+.header-nav-li:focus {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -94,6 +95,10 @@ p {
   color: #404bbf;
   text-decoration: underline;
   text-decoration-color: #404bbf;
+}
+
+.header-nav-link {
+  color: inherit;
 }
 
 .address {
@@ -110,7 +115,7 @@ p {
 }
 
 .address-link:hover,
-.address-link:active {
+.address-link:focus {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
