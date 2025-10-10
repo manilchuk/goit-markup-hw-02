@@ -128,7 +128,7 @@ p {
   background: #2e2f42;
 }
 
-.hero-image h1 {
+.hero-image-text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -142,13 +142,16 @@ p {
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
   white-space: nowrap;
+  cursor: pointer;
 }
 
-.hero-image-button:hover {
+.hero-image-button:hover,
+.hero-image-button:focus {
   background: #404bbf;
 }
 
