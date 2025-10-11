@@ -156,19 +156,19 @@ p {
 }
 
 /* section 2 */
-.section-2 {
+.section-two {
 }
 
-.section-2-title {
+.section-two-title {
 }
 
-.section-2-list {
+.section-two-list {
 }
 
-.section-2-list-element {
+.section-two-list-element {
 }
 
-.section-2-list-element-title {
+.section-two-list-element-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -177,7 +177,7 @@ p {
   color: #2e2f42;
 }
 
-.section-2-list-element-text {
+.section-two-list-element-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -187,19 +187,19 @@ p {
 }
 
 /* section 3 */
-.section-3 {
+.section-three {
   background: #f4f4fd;
   margin: 0 auto;
 }
 
-.section-3-title {
+.section-three-title {
   text-transform: capitalize;
 }
 
-.section-3-list {
+.section-three-list {
 }
 
-.section-3-card {
+.section-three-card {
   background: #fff;
   text-align: center;
 }
@@ -215,27 +215,27 @@ p {
 }
 
 /* section 4 */
-.section-4 {
+.section-four {
 }
-.section-4-title {
-}
-
-.section-4-list {
+.section-four-title {
 }
 
-.section-4-list-card {
+.section-four-list {
+}
+
+.section-four-list-card {
   background: #fff;
 }
 
-.section-4-list-card-text {
+.section-four-list-card-text {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
 }
 
-.section-4-list-card-text-h3 {
+.section-four-list-card-text-h3 {
 }
 
-.section-4-list-card-text-p {
+.section-four-list-card-text-p {
 }
 
 /* footer */
