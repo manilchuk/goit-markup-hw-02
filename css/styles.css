@@ -242,9 +242,6 @@ p {
   background: #2e2f42;
 }
 
-.footer-conteiner {
-}
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -254,7 +251,7 @@ p {
   text-transform: uppercase;
 }
 
-.footer-logo-part2 {
+.footer-logo-part-two {
   color: #f4f4fd;
 }
 
