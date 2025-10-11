@@ -213,11 +213,15 @@ p {
   text-align: center;
   color: #2e2f42;
 }
+.section-three-card-text {
+  font-size: 16px;
+}
 
 /* section 4 */
 .section-four {
 }
 .section-four-title {
+  text-transform: capitalize;
 }
 
 .section-four-list {
@@ -225,11 +229,6 @@ p {
 
 .section-four-list-card {
   background: #fff;
-}
-
-.section-four-list-card-text {
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
 }
 
 .section-four-list-card-text-h3 {
