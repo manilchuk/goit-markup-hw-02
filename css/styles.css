@@ -123,7 +123,7 @@ p {
   color: #404bbf;
 }
 
-/* section hero-image */
+/* section 1 */
 .hero-image {
   background: #2e2f42;
 }
@@ -155,20 +155,20 @@ p {
   background: #404bbf;
 }
 
-/* section-1 */
-.section-1 {
+/* section 2 */
+.section-2 {
 }
 
-.section-1 h2 {
+.section-2-title {
 }
 
-.section-1 ul {
+.section-2-list {
 }
 
-.section-1 ul li {
+.section-2-list-element {
 }
 
-.section-1 h3 {
+.section-2-list-element-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -177,7 +177,7 @@ p {
   color: #2e2f42;
 }
 
-.section-1 p {
+.section-2-list-element-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -186,16 +186,20 @@ p {
   color: #434455;
 }
 
-/* section-2 */
-.section-2 {
+/* section 3 */
+.section-3 {
   background: #f4f4fd;
   margin: 0 auto;
 }
 
-.section-2-list {
+.section-3-title {
+  text-transform: capitalize;
 }
 
-.section-2-card {
+.section-3-list {
+}
+
+.section-3-card {
   background: #fff;
   text-align: center;
 }
@@ -210,20 +214,28 @@ p {
   color: #2e2f42;
 }
 
-/* section-3 */
-.section-3 {
+/* section 4 */
+.section-4 {
+}
+.section-4-title {
 }
 
-.row {
+.section-4-list {
 }
 
-.project-card {
+.section-4-list-card {
   background: #fff;
 }
 
-.project-card div {
+.section-4-list-card-text {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+}
+
+.section-4-list-card-text-h3 {
+}
+
+.section-4-list-card-text-p {
 }
 
 /* footer */
