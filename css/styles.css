@@ -1,3 +1,4 @@
+/* #region global styles */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -37,9 +38,10 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion global styles */
 
-/* header */
-.header {
+/* #region header */
+.page-header {
 }
 
 .header-nav-all {
@@ -100,8 +102,9 @@ p {
 .address-link:focus {
   color: #404bbf;
 }
+/* #endregion header */
 
-/* section 1 */
+/* #region section 1 */
 .hero-image {
   background: #2e2f42;
 }
@@ -132,15 +135,20 @@ p {
 .hero-image-button:focus {
   background: #404bbf;
 }
+/* #endregion section 1 */
 
-/* section 2 */
+/* #region section 2 */
 .section-two {
 }
 
 .section-two-title {
+  display: none;
 }
 
 .section-two-list {
+  margin: 120 156;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-two-list-element {
@@ -163,8 +171,9 @@ p {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion section 2 */
 
-/* section 3 */
+/* #region section 3 */
 .section-three {
   background: #f4f4fd;
   margin: 0 auto;
@@ -175,11 +184,17 @@ p {
 }
 
 .section-three-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 
 .section-three-card {
   background: #fff;
   text-align: center;
+}
+
+.section-three-card-photo {
 }
 
 .name {
@@ -194,15 +209,22 @@ p {
 .section-three-card-text {
   font-size: 16px;
 }
+/* #endregion section 3 */
 
-/* section 4 */
+/* #region section 4 */
 .section-four {
+  padding: 120px 156px;
 }
 .section-four-title {
   text-transform: capitalize;
 }
 
 .section-four-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 72px;
 }
 
 .section-four-list-card {
@@ -214,10 +236,12 @@ p {
 
 .section-four-list-card-text-p {
 }
+/* #endregion section 4 */
 
-/* footer */
+/* #region footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 1020px 100px 156px;
 }
 
 .footer-logo {
@@ -231,3 +255,4 @@ p {
 .footer-text {
   color: #f4f4fd;
 }
+/* #endregion footer */
